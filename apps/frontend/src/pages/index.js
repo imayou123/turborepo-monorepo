@@ -4,7 +4,7 @@ import React from 'react';
 const page = () => <div>hello
     <div>
         debug: {debug} <Dot/>
-        <Dot color={'#fb0'} size={8} />
+        <Dot  color={'#fb0'} size={8} />
     </div>
 </div>;
 export default page;
