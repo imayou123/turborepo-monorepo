@@ -23,8 +23,6 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           projectBaseDir: apps/frontend/
-          args:
-            -Dsonar.verbose=true
   sonarQubeScan2:
     name: SonarQubeScan2
     runs-on: ubuntu-latest
@@ -39,5 +37,3 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           projectBaseDir: packages/uibits/
-          args:
-            -Dsonar.verbose=true
